@@ -299,6 +299,7 @@ set(CPM_SOURCE_CACHE ${CMAKE_SOURCE_DIR}/.cache/cpm)
 include(DownloadExternals)
 include(CMakeDependentOption)
 include(CTest)
+include(OpenOrbis)
 
 # Disable Warnings as Errors for MSVC
 if (MSVC AND NOT CXX_CLANG)
