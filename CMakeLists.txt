@@ -20,7 +20,7 @@ elseif (${CMAKE_SYSTEM_NAME} STREQUAL "Haiku")
 elseif (${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
     set(PLATFORM_LINUX ON)
 elseif (${CMAKE_SYSTEM_NAME} STREQUAL "OpenOrbis")
-    set(PLATFORM_PS4 ON) #PlayStation 4
+    set(PLATFORM_PS4 ON)
 endif()
 
 # dumb heuristic to detect msys2
