@@ -1914,7 +1914,7 @@ class EmulationFragment : Fragment(), SurfaceHolder.Callback {
 
         companion object {
             fun fromValue(value: Int): AmiiboState =
-                values().firstOrNull { it.value == value } ?: Disabled
+                entries.firstOrNull { it.value == value } ?: Disabled
         }
     }
 
@@ -1927,7 +1927,7 @@ class EmulationFragment : Fragment(), SurfaceHolder.Callback {
 
         companion object {
             fun fromValue(value: Int): AmiiboLoadResult =
-                values().firstOrNull { it.value == value } ?: Unknown
+                entries.firstOrNull { it.value == value } ?: Unknown
         }
     }
 
